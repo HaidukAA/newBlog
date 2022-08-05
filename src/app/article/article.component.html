@@ -1,0 +1,57 @@
+<div *ngIf="article">
+    <header class="header">
+        <div class="_container">  
+            <h1>{{article.title}} </h1>
+            <div class="caption_container _container">
+               
+                <img class="authorImg" src= {{article.imageUser}} alt="user">
+
+                <a class="avtorName" href="">{{article.nameUser}}</a>
+
+                <ul class="reactions">
+                    <li class="reactionsText">{{article.dataArticle}}</li>
+                    <img class="reactionsImg" src="../../assets/img/Vector.svg" alt="kudos">
+                    <li class="reactionsText">{{article.kudos}}</li>
+                    <li><img class="reactionsImg" src="../../assets/img/star.svg" alt="star"></li>
+                </ul>
+                
+            </div>
+        </div>
+    </header>
+    
+    <main class="main">
+        <div class="main_container _container">
+
+            <img class="img" src={{article.imageArticle}} alt="model">
+
+            <div class="text">
+                <p>{{article.captionImage}}</p>
+                <p>{{article.paragraph1}}</p>
+                <h2>{{article. title2}}</h2>
+                <p>{{article.paragraph2}}</p>
+                <p>{{article.paragraph3}}</p>
+                <p class="pLast">{{article.paragraph4}}</p>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+                
+        <div class="caption_container _container">
+               
+            <img class="authorImg" src= {{article.imageUser}} alt="user">
+
+            <a class="avtorName" href="">{{article.nameUser}}</a>
+            <ul class="reactions">
+                <li class="reactionsText">{{article.dataArticle}}</li>
+                <img class="reactionsImg" src="../../assets/img/Vector.svg" alt="kudos">
+                <li class="reactionsText">{{article.kudos}}</li>
+                <li><img class="reactionsImg" src="../../assets/img/star.svg" alt="star"></li>
+            </ul>
+            
+        </div>
+    </footer>
+
+
+</div>

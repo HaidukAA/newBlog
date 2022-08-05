@@ -1,0 +1,54 @@
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand:regular,medium,semi-bold,300,400,500,bold,light&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular&display=swap");
+@import "styles/abstracts/variables";
+@import "styles/base/null";
+
+
+
+body, html{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Quicksand";
+  font-size: 18px;
+  font-weight: normal;
+  color: black;
+}
+
+h1, h2 {
+  font-weight: 600;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+h4 {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Quicksand";
+  font-size: 12px;
+  font-weight: normal;
+  color: $col-light;
+}
+
+.medium {
+  font-family: 'Quicksand';
+  font-size: 14px;
+  font-weight: bold;
+  color: $col-medium;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    
+}
+

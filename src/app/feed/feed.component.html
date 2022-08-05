@@ -1,0 +1,45 @@
+
+<main class="main">
+    <div class="main_container _container">
+        
+        <div class="feedBlok" *ngFor="let article of articles">
+                            
+            <img class="img" src= {{article.imageArticle}}>
+                        
+            <div class="cardcontent">
+                        
+                <div class="tegs_container">
+                    <a href="" >{{ article.tegs.tegOne }}</a>
+                    <a href="" >{{ article.tegs.tegTwo }}</a>
+                </div>
+                    
+                <h2 >{{ article.title }}</h2>
+                    
+                <p>{{ article.caption }}</p>
+                            
+                <div class="caption_container">
+                     
+            
+                        <img class="authorImg" src= {{article.imageUser}}>
+                        <a class="avtorName" href="">{{article.nameUser}}</a>
+                              
+                    
+                    <ul class="reactions_container">
+                        <img class="reactionsImg" src="../assets/img/Vector.svg" alt="kudos">
+                        <li class="reactionsText">{{article.kudos}}</li>
+                        <li><img class="reactionsImg" src="../assets/img/star.svg" alt="star"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="button_container">
+            <button type="button" class="buttonLoad">
+                <img class="loadIMG" src="assets/img/Vectordownload.svg" alt="loadMore">
+                LOAD MORE
+            </button>
+        </div>
+
+    <div>
+<main>
+           
