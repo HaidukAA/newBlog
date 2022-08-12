@@ -1,0 +1,173 @@
+
+@import "/src/styles/abstracts/variables";
+.wrapper{   
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    background: $col-w;
+}
+
+._container{ 
+    max-width: 995px;
+    margin: 0px auto;
+    background: $col-w;
+}
+
+.infoIMG{
+    display: flex;
+    background-image: url(../../assets/img/bluecircle.png);
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.info{   
+    text-align: center;
+    justify-content: center;
+}
+
+
+.authorImg{
+   margin: 72px 254px 0px 254px;
+
+}
+
+h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 115%;
+    margin: 20px 0px 20px 0px;
+    
+    }
+
+h2{
+    padding-top: 16px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 115%;
+}
+.onePop{
+    
+    max-width: 740px;
+    max-height: 820px;
+}
+
+.popular{
+    display: flex;
+    max-width: 660px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    z-index: 9;
+    align-content: flex-start;
+}
+
+.blue{
+    margin-top: 156px;
+    position: absolute;
+    width: 486px;
+    height: 812px;
+    margin-top: 71px;
+    background: $blue-back;
+    text-align: center;
+    margin-left: 505px;
+}
+
+.main_midle{
+    display: flex;
+    max-height: 920px;
+}
+
+.backDiv{
+    position: absolute;
+    width: 872px;
+    height: 300px;
+    background: $blue-back;
+}
+
+.frontDiv{
+    display:flex;
+    justify-content: space-between;
+    z-index: 9;
+}
+
+.footer_container{
+    display: flex;
+    align-items: center; 
+    margin-top: 56px;
+    
+}
+
+.authorImg:hover{
+    transform: scale(2.2);
+    transition: transform 0.25s;
+}
+
+
+/*-------------MEDIA--------------------------------------------------------------------*/
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width :1000px) {
+ 
+    .blue{
+        display: none;
+    }
+    .frontDiv{
+        display:flex;
+        z-index: 9;
+        flex-direction: column;
+    }
+
+    .footer_container{
+        justify-content: center;
+    }
+
+    
+    .backDiv{
+        position: absolute;
+        margin-top: 80px;
+        width: 310px;
+        height: 872px;
+    }
+
+    .newest{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main_midle{
+    justify-content: center;
+    margin-right: 320px;
+    }
+}
+
+@media only screen and (max-width : 640px) {
+    .main_midle{
+        flex-direction: column;
+        align-items: center;
+        max-height: 2000px;
+        margin-left: 200px;
+    }
+
+    h1{
+        font-size: 20px;
+        margin-left: 20px;
+        }
+    
+    .blue{
+            display: none;
+        }
+    
+    .frontDiv{
+            z-index: 0;
+        }
+    
+    .newest{
+        display: flex;
+        justify-content: center;
+    }
+    
+   
+}

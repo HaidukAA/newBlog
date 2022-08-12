@@ -1,0 +1,46 @@
+@import "/src/styles/abstracts/variables";
+
+.main{
+    padding-top: 96px;
+    padding-bottom: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: $black-gradient;
+}
+
+img {
+    display: block;
+    min-width: 100%;
+    min-height:100%;
+    width:auto;
+    height:auto;
+    }
+
+
+button{
+    
+    padding: 6px 71px 6px 71px;
+    background: $col-blue;
+    border-radius: 20px;
+    text-align: center; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: $col-w;
+}
+
+button:hover {
+    background: $col-hover;
+    
+}
+
+@media only screen and (max-width : 767px) {
+
+    .main{ padding: auto;}
+
+    img{ max-height: 200px;} 
+
+}

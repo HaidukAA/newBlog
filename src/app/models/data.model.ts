@@ -18,3 +18,39 @@ export interface IArticle {
   paragraph3?: string
   paragraph4?: string
 }
+
+export interface IUser {
+  id: number
+  name?: string
+  joined?: string
+  gender?: string
+  status?: string
+  email?: string
+}
+
+export interface IPopular {
+  id: number
+  title?: string
+  caption?: string
+  kudos: number
+  imageUser?: string
+  nameUser?: string
+  imageArticle?: string
+}
+
+export interface IFootherProfileBlock {
+  id: number
+  title?: string
+  kudos: number
+  imageUser?: string
+  nameUser?: string
+  imageArticle?: string
+}
+
+
+export interface IReaction {
+  id: number
+  kudos: number
+  imageUser?: string
+  nameUser?: string
+}

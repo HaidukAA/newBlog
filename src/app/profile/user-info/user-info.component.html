@@ -1,0 +1,24 @@
+<div class="container" *ngIf="user">
+
+        <h2>{{user.name}}</h2>
+
+        <div class="blocks">
+            <div class="block">
+              <div class="block_title">Joined</div>
+              <div class="block_text">{{user.joined}}</div>
+            </div>
+            <div class="block">
+                <div class="block_title">Gender</div>
+                <div class="block_text">{{user.gender}}</div>
+            </div>
+            <div class="block">
+                <div class="block_title">Status</div>
+                <div class="block_text">{{user.status}}</div>
+            </div>
+            <div class="block">
+                <div class="block_title">Email</div>
+                <div class="block_text">{{user.email}}</div>
+             </div>  
+        </div>
+
+</div>

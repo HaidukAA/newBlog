@@ -1,4 +1,4 @@
-
+@import "/src/styles/abstracts/variables";
 
 ._container{
     max-width: 992px;
@@ -14,7 +14,7 @@ main{
 
 .feedBlok{
     display: flex;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: $box-shadow;
     margin-bottom: 40px;
    
 }
@@ -30,31 +30,30 @@ main{
 }
 
 a{
-    background: rgba(49, 49, 49, 0.1);
+    background: $black-background;
     border-radius: 12px;
     padding: 0 12px  0 12px;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    color: #313131;
     text-align: center; 
     margin-right: 8px;  
 }
 
 a:hover, .buttonLoad:hover {
-    background: #96bacd;
+    background: $col-hover;
     
 }
 
 .reactionsImg:hover {
-    background:#96bacd;
+    background:$col-hover;
     border-radius: 100%;
 
 }
 
  .avtorName:hover, h2:hover {
     background: none;
-    color: #96bacd;
+    color: $col-hover;
     cursor: pointer;
 }
 
@@ -62,7 +61,6 @@ h2{
     font-weight: 700;
     font-size: 20px;
     line-height: 115%;
-    color: #313131;
     padding-top: 12px;
 }
 
@@ -70,7 +68,7 @@ p{
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
-    color: rgba(49, 49, 49, 0.85);
+    color: $col-light;
     padding-top: 12px;
 }
 
@@ -101,7 +99,6 @@ p{
     padding-bottom: 0;
     background: none;
     border-radius: 0;
-    color: #313131;
     text-align: center;   
 }
 
@@ -109,15 +106,15 @@ p{
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    color: rgba(49, 49, 49, 0.73);
-    border-right: 1px solid rgba(49, 49, 49, 0.2);
+    color: $reactionsText;
+    border-right: 1px solid $border;
     padding-right: 8px;
     padding-left: 4.5px;
     
 }
 
 .authorImg{ 
-    border: 1px solid #27AAF0;
+    border: 1px solid $col-blue;
     border-radius: 20px;
     padding-right: 0;
     max-width: 40px;
@@ -130,7 +127,7 @@ p{
 
 .buttonLoad{
     padding: 8px 90px 8px 89px;
-    background: #27AAF0;
+    background: $col-blue;
     border-radius: 20px;
     text-align: center; 
     margin: auto auto 410px 348px ;
@@ -138,8 +135,8 @@ p{
     font-size: 14px;
     line-height: 24px;
 
-    color: #FFFFFF;
-    border-color: #27AAF0;
+    color: $col-w;
+    border-color: $col-blue;
 }
 
 
@@ -160,7 +157,7 @@ p{
     .authorImg{
         width: 24px;
         height: 24px;
-        border:1px solid rgb(255, 255, 255)}
+        border:1px solid $col-w}
 
     .reactions{
         justify-content: start;
@@ -200,7 +197,7 @@ p{
     .authorImg{
     width: 24px;
     height: 24px;
-    border:  wheat;}
+    border: $col-w;}
 
     .reactions{
         justify-content: start;

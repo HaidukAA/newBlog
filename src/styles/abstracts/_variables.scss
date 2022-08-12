@@ -1,14 +1,27 @@
 // colors:
 
-$color: #444;
-$col-bottom: rgba(49, 49, 49, 0.15);
-$col-blue: #27AAF0;
-$col-light: rgba(49, 49, 49, 0.73);
-$col-active: #27AAF0;
-$col-m-active: rgba(39, 170, 240, 1);
-$col-hover: rgba(49, 49, 49, 0.1);
-$col-w: #FFFFFF;
+$color: #444; 
+$col-bottom: rgba(49, 49, 49, 0.15); 
+$col-light:  rgba(49, 49, 49, 0.85);
 $col-line: rgba(49, 49, 49, 0.6);
 $col-disable: rgba(120, 145, 159, 0.6);
 $col-tags: rgba(49, 49, 49, 0.1);
 $col-medium: rgba(0, 0, 0, 1);
+
+$black-gradient: linear-gradient(180deg, #0D162C 64.18%, #153276 118.5%), #0D162C;
+$col-hover: #96bacd;
+$col-w: #FFFFFF;
+$col-blue: #27AAF0;
+$shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+$border: rgba(49, 49, 49, 0.2);
+$box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+$black-background: rgba(49, 49, 49, 0.1);  
+$reactionsText:  rgba(49, 49, 49, 0.73); 
+
+$col-grey-lite: rgba(255, 255, 255, 0.74); 
+$col-grey:rgba(255, 255, 255, 0.34); 
+
+$login-background: #11ffee00;
+$input-background: rgba(49, 49, 49, 0.04);
+$borde-black: rgb(6, 6, 6);  
+$blue-back:  linear-gradient(270deg, #153276 -79.19%, #27AAF0 100%);

@@ -1,0 +1,11 @@
+
+
+<div class="smallCard"  *ngFor="let popular of populars">
+
+
+    <img class="smallCardImg" src={{popular.imageArticle}} alt="img1">
+    <h3>{{ popular.title }}</h3>
+    <p>{{ popular.caption }}</p>
+    <app-reaction></app-reaction>
+                                
+</div>

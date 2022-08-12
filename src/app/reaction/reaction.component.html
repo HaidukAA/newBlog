@@ -1,0 +1,12 @@
+<div class="caption_container"  *ngFor="let reaction of reactions | slice:0:1">
+
+    <img class="reactionImg" src={{reaction.imageUser}} alt="user">
+    <a class="reactionName" href="">{{ reaction.nameUser }}</a>
+
+    <ul class="reactions">
+        <img class="reactionsVector" src="assets/img/Vector.svg" alt="kudos">
+        <li class="reactionsText">{{reaction.kudos}}</li>
+        <img class="reactionsVector" src="assets/img/star.svg" alt="star">
+    </ul>
+
+</div>

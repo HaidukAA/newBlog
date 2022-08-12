@@ -20,11 +20,9 @@ export class ArticleComponent implements OnInit {
 
   ngOnInit() {
       
-    // First get the product id from the current route.
     const routeParams = this.route.snapshot.paramMap;
     const articleIdFromRoute = Number(routeParams.get('articleId'));
 
-    // Find the product that correspond with the id provided in route.
     this.article = articles.find(article => article.id === articleIdFromRoute);
   }
 

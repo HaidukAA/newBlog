@@ -33,7 +33,7 @@ export const articles= [
       kudos: 147,
       imageArticle: 'assets/img/Image2.png',
       caption: 'Every year there have been new features added to the JavaScript specification. Array.flatMap, try/catch improvements and more.',
-} ,
+    } ,
 
     {
       id: 3,
@@ -60,7 +60,7 @@ export const articles= [
       kudos: 147,
       imageArticle: 'assets/img/Image4.png',
       caption: 'Instead of clicking around in the Graphical User Interface (GUI), we can fire off a couple of commands and call it job done.',
-}, 
+    }, 
 
     {
       id: 5,
@@ -75,7 +75,7 @@ export const articles= [
       kudos: 147,
       imageArticle: 'assets/img/Image5.png',
       caption: 'I would like to add another technique to your toolkit — confidence intervals.',
- }, 
+    }, 
 
     {
       id: 6,
@@ -89,8 +89,133 @@ export const articles= [
       kudos: 147,
       imageArticle: 'assets/img/Image6.png',
       caption: 'When I started learning about python generators, I had no idea how important it would turn...',
-} 
-  ]
+ } 
+ ]
 
- 
+ export const users = [
+  {
+    id: 1,
+    name: 'Tyler Folkman',
+    joined: '12 November 2019',
+    gender: 'Male',
+    status: 'Administrator',
+    email: 'tayler.folkman@gmail.com',
+  }
+ ]
+
   
+ export const populars = [ {
+  id: 1,
+  title: 'How To Add Confidence Intervals to Any Model',
+  caption: 'I would like to add another technique to your toolkit — confidence intervals',
+  kudos: 147,
+  imageUser: 'assets/img/folkman.png',
+  nameUser: 'TYLER FOLKMAN',
+  imageArticle: 'assets/img/Image.png',
+},
+{
+  id: 2,
+  title: 'What’s New in JavaScript — ES2019',
+  kudos: 120,
+  imageUser: 'assets/img/folkman.png',
+  nameUser: 'TYLER FOLKMAN',
+  imageArticle: 'assets/img/ImageSmall2.png',
+},
+{
+  id: 3,
+  title: 'How To Fake Being a Good Programmer',
+  kudos: 89,
+  imageUser: 'assets/img/folkman.png',
+  nameUser: 'TYLER FOLKMAN',
+  imageArticle: 'assets/img/ImageSmall3.png',
+},
+{
+  id: 4,
+  title: 'Reduce Memory Usage and Make Your Python Code Faster Using Generators',
+  kudos: 21,
+  imageUser: 'assets/img/folkman.png',
+  nameUser: 'TYLER FOLKMAN',
+  imageArticle: 'assets/img/ImageSmall4.png',
+},
+{
+  id: 5,
+  title: 'Here Are 11 Console Commands Every Developer Should Know',
+  kudos: 3,
+  imageUser: 'assets/img/folkman.png',
+  nameUser: 'TYLER FOLKMAN',
+  imageArticle: 'assets/img/ImageSmall5.png',
+}
+]
+
+export  const footherArticles = [ { 
+  id: 1,
+  title: 'Is React Overrated',
+  kudos: 120,
+  imageUser: 'assets/img/folkman.png',
+  nameUser: 'Tyler Folkman',
+  imageArticle: 'assets/img/React.png'
+},
+{ 
+  id: 2,
+  title: 'Your Next App May Not Have a Back End',
+  kudos: 120,
+  imageUser: 'assets/img/folkman.png',
+  nameUser: 'Tyler Folkman',
+  imageArticle: 'assets/img/NextApp.png'
+},
+{ 
+  id: 3,
+  title: 'JavaScript: Sets vs. Arrays',
+  kudos: 120,
+  imageUser: 'assets/img/folkman.png',
+  nameUser: 'Tyler Folkman',
+  imageArticle: 'assets/img/JSSets.png'
+}
+]
+
+
+
+export const reactions = [ {
+  id: 1,
+  kudos: 120,
+  imageUser: 'assets/img/folkman.png',
+  nameUser : 'TYLOR FOLKMAN',
+},
+{
+  id: 2,
+  kudos: 150,
+  imageUser: 'assets/img/folkman.png',
+  nameUser : 'petya',
+},
+{
+  id: 3,
+  kudos: 20,
+  imageUser: 'assets/img/folkman.png',
+  nameUser : 'vasya',
+},
+]
+
+export const newests= [
+  
+  {
+    id: 1,
+    title: 'Angular: Multiple Themes Without Killing Bundle Size (With Material or Not)',
+    tegs: {
+      tegOne: 'Angular',
+      tegTwo: 'Material Design'
+    },
+    imageArticle: 'assets/img/newest.png',
+    caption: 'Keep users happy with a choice of themes.',
+    
+  },
+  {
+    id: 2,
+    title: 'Angular: Multiple Themes Without Killing Bundle Size (With Material or Not)',
+    tegs: {
+      tegOne: 'Angular',
+      tegTwo: 'Material Design'
+    },
+    imageArticle: 'assets/img/newest.png',
+    caption: 'Keep users happy with a choice of themes.',
+    
+  }]

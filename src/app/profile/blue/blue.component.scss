@@ -1,0 +1,23 @@
+@import "/src/styles/abstracts/variables";
+
+.stats{
+    display: block;
+    padding: 168px 58px 168px 145px;
+}
+
+.numberStats{
+    
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 115%;
+    color: $col-w;
+}
+
+.nameStats{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 115%;
+    letter-spacing: 0.5px;
+    color: $col-w;
+    padding-bottom: 88px;
+}

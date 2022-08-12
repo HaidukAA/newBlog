@@ -1,0 +1,39 @@
+@import "/src/styles/abstracts/variables";
+.smallCard{   
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 20px 0 ;
+    max-width: 310px;
+    box-shadow: $box-shadow;
+    background: $col-w;
+    max-height: 540px;  
+    justify-content: space-between;
+    
+}
+
+.smallCardImg{
+    max-width: 310px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: $col-light;
+    margin: 10px 20px 20px 20px;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 115%;
+    padding: 15px 20px 11px 20px;
+}
+
+a:hover, h3:hover{
+    color: $col-hover;   
+}
+
+@media only screen and (max-width : 640px) {
+
+}

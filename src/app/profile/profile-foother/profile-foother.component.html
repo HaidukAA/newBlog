@@ -1,0 +1,6 @@
+
+    <div class="smallTallCard" *ngFor="let footherArticle of footherArticles | slice:0:3">
+            <img src="{{footherArticle.imageArticle}}" alt="img1">
+            <h3>{{footherArticle.title}}</h3>
+            <app-reaction></app-reaction>
+    </div>

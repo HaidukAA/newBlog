@@ -1,0 +1,17 @@
+<div class="Newest_conteiner" *ngFor="let newest of newests | slice:0:1">
+    <img src="{{ newest.imageArticle }}" alt="Newest">
+    <div class = "Newest ">
+        <div class="tegs">
+            <a class="NewestTegs" href="">{{ newest.tegs.tegOne }}</a>
+            <a class="NewestTegs" href="">{{ newest.tegs.tegTwo }}</a>
+        </div>
+
+        <div class="NewestTextContainer">
+            <h4 class="NewestH3">{{ newest.title }}</h4>
+
+            <p class= "TextNewest">{{ newest.caption }}</p>
+        
+            <app-reaction></app-reaction>
+                
+            </div>
+    </div>
